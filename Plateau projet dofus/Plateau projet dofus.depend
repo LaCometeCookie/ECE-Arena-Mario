@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1652721802 source:c:\users\comeb\documents\code\programmes\autre\allegro\plateau projet dofus\main.c
+	<allegro.h>
+	<stdio.h>
+	<stdlib.h>
+
+1652863320 source:c:\users\comeb\documents\code\programmes\autre\allegro\plateau projet dofus\exe.c
+	<allegro.h>
+	<stdio.h>
+	<stdlib.h>
+
