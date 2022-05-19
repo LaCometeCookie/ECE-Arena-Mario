@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 ///------------------------Structure joueur------------------------///
 typedef struct joueur{
 int pv;             //nombre de PV du joueur
