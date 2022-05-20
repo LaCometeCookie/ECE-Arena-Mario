@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1652881377 source:c:\users\valen\dropbox\cours\informatique\projet 2\attaque_1\main.c
-	<stdio.h>
-	<stdlib.h>
-	<allegro.h>
-
