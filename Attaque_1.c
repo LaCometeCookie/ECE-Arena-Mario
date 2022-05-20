@@ -13,10 +13,12 @@ int attaque(int num_joueur, int tabChose[20][10], t_classe* classe, t_joueur* ta
     int couleur_rouge = makecol(255, 0, 0);
     if(mouse_b & 1)//Test si clique gauche
     {
+        //Récupération de la position de la souris//
         int souris_lin = 0;
         int souris_col = 0;
         souris_lin =(mouse_y/50);
         souris_col =(mouse_x/50);
+        ////////////////////////////////////////////
 
         int couleur_case = getpixel(screen , mouse_x, mouse_y);//Récupération de la couleur de la case
 
@@ -32,8 +34,11 @@ int attaque(int num_joueur, int tabChose[20][10], t_classe* classe, t_joueur* ta
                     if(tabChose[souris_col][souris_lin] == 3) victime = 3;//Si présence joueur 3
                     if(tabChose[souris_col][souris_lin] == 4) victime = 4;//Si présence joueur 4
 
-                    srand(time(NULL));//Initialisation rand()
+                    //Calcul de la proba d'échec//
+                    srand(time(NULL));
                     int proba_echec = rand()%12;
+                    //////////////////////////////
+
                     if(proba_echec != 0)//Si l'attaque n'a pas échoué
                     {
                         //Permet de générer aléatoirement le nb de dégâts infligés//
