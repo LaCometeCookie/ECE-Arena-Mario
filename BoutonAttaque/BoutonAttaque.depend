@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1653166177 source:c:\users\antoi\onedrive\documents\projet allegro\boutonattaque\main.c
-	<stdio.h>
-	<stdlib.h>
-	<allegro.h>
-
