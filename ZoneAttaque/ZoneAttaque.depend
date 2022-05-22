@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1653216468 source:c:\users\antoi\onedrive\documents\projet allegro\zoneattaque\main.c
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+
