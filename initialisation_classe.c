@@ -3,7 +3,7 @@
                     //      Le sous prog prend en paramètres:       //
                     //      un élément de la structure t_classe     //
                     //////////////////////////////////////////////////
-int ini_classe(t_classe *classe)
+int ini_classe(t_classe* classe)
 {
     classe->tab_degats_attaques[0] = 2;     //Initialisation dégâts attaques corps à corps
     classe->tab_degats_attaques[1] = 8;     //Initialisation dégâts attaques 1
